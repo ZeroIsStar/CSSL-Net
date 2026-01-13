@@ -68,15 +68,15 @@ tensorboard --logdir=tf-logs
 
 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
   <div style="text-align: center;">
-    <img src="./SSCE.jpg" alt="SSCE模块" style="width: 100%; max-width: 250px; border: 1px solid #ccc;">
+    <img src="./SSCE.jpg" alt="SSCE模块" style="width: 20%; max-width: 250px; border: 1px solid #ccc;">
     <p><strong>图(a): SSCE模块</strong><br>光谱-空间上下文增强模块</p>
   </div>
   <div style="text-align: center;">
-    <img src="./FCSS.jpg" alt="FCSS模块" style="width: 100%; max-width: 250px; border: 1px solid #ccc;">
+    <img src="./FCSS.jpg" alt="FCSS模块" style="width: 20%; max-width: 250px; border: 1px solid #ccc;">
     <p><strong>图(b): FCSS模块</strong><br>闪聚上下文状态空间模块</p>
   </div>
   <div style="text-align: center;">
-    <img src="./LPA.jpg" alt="LPA模块" style="width: 100%; max-width: 250px; border: 1px solid #ccc;">
+    <img src="./LPA.jpg" alt="LPA模块" style="width: 20%; max-width: 250px; border: 1px solid #ccc;">
     <p><strong>图(c): LPA模块</strong><br>轻量级像素流对齐模块</p>
   </div>
 </div>
