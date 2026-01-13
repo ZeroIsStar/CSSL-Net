@@ -143,14 +143,15 @@ class evaluator:
 
 if __name__ == '__main__':
     # model_list = ['Unet']
-    # dataset_list = ['palu', 'WenChuan']
+    # dataset_list = ['Luding','landslide4']
 
     Data_loader = DataLoader(dataset_name='landslide4')
-    _, V, Test_loader = Data_loader.get_dataloader()
-    evaluator = evaluator(test_loader=V, model_type='fcss_lpa', dataset_name='landslide4',
-                          model_weight_dir=r'tf-logs/landslide4/fcss_lpa/mix_loss/2025_10_20/10_43_39/epoch79_iou0.6346_Acc0.9892_recall0.7664_pre0.7868_F1_0.7765.pth')
+    _, _, Test_loader = Data_loader.get_dataloader()
+    evaluator = evaluator(test_loader=Test_loader, model_type='fcss_lpa', dataset_name='landslide4',
+                          model_weight_dir=r'train_model_weight_path')
     evaluator.test()
     evaluator.vis_seg_test_result()
+
 
 
 
