@@ -44,9 +44,33 @@ The Luding dataset can be accessed at [Zenodo](https://zenodo.org/records/175439
 https://github.com/ZeroIsStar/CSSL-Net.git
 cd CSSL-Net
 
-## 📦 安装依赖
+## 📦 环境依赖
 
-安装所有必需的 Python 包：
+### 核心依赖
+```txt
+# 深度学习框架
+torch==2.0.0+cu118
+torchvision==0.15.1+cu118
+timm==1.0.24
 
-```bash
-pip install -r requirements.txt
+# 计算机视觉
+opencv-python==4.11.0.86
+Pillow==9.4.0
+tifffile==2023.7.10
+mamba-ssm==2.2.2
+
+# 数据处理与科学计算
+numpy==1.24.2
+scipy==1.10.1
+matplotlib==3.7.1
+pandas==2.0.0
+h5py==3.11.0
+
+# 模型评估与工具
+tensorboard==2.12.0
+thop==0.1.1.post2209072238
+torchsummary==1.5.1
+einops==0.8.1
+
+## 📦 训练过程查看和损失下载
+
