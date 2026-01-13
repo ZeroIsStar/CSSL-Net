@@ -66,4 +66,6 @@ tensorboard --logdir=tf-logs
   <em>图1: 整体系统架构图</em>
 </div>
 
-
+# Training Process Monitoring
+The Luding dataset comes from our team's earlier research.
+The dataset can be accessed at [zenodo](https://zenodo.org/records/17543956).
