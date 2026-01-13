@@ -66,10 +66,10 @@ tensorboard --logdir=tf-logs
   <em>图1: 整体系统架构图</em>
 </div>
 
-<div align="center">
-  <img src="model.jpg" alt="SSCE" width="800">
-  <br>
-  <em>图1: 整体系统架构图</em>
+<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+  <img src="./SSCE.jpg" alt="Spectral–Spatial Context Enhancement module" style="max-width: 30%; margin: 5px;" />
+  <img src="./FCSS.jpg" alt="Flash-aggregation Context State Space module" style="max-width: 30%; margin: 5px;" />
+  <img src="./LPA.jpg" alt="Lightweight Pixel-flow Alignment module" style="max-width: 30%; margin: 5px;" />
 </div>
 
 # Training Process Monitoring
