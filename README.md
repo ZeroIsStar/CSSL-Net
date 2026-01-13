@@ -66,20 +66,9 @@ tensorboard --logdir=tf-logs
   <em>图1: 整体系统架构图</em>
 </div>
 
-<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-  <div style="text-align: center;">
-    <img src="./SSCE.jpg" alt="SSCE模块" style="width: 20%; max-width: 250px; border: 1px solid #ccc;">
-    <p><strong>图(a): SSCE模块</strong><br>光谱-空间上下文增强模块</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="./FCSS.jpg" alt="FCSS模块" style="width: 20%; max-width: 250px; border: 1px solid #ccc;">
-    <p><strong>图(b): FCSS模块</strong><br>闪聚上下文状态空间模块</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="./LPA.jpg" alt="LPA模块" style="width: 20%; max-width: 250px; border: 1px solid #ccc;">
-    <p><strong>图(c): LPA模块</strong><br>轻量级像素流对齐模块</p>
-  </div>
-</div>
+| <img src="SSCE.jpg" width="200"> | <img src="FCSS.jpg" width="200"> | <img src="LPA.jpg" width="200"> |
+|:---:|:---:|:---:|
+| **图(a): SSCE模块**<br>光谱-空间上下文增强模块 | **图(b): FCSS模块**<br>闪聚上下文状态空间模块 | **图(c): LPA模块**<br>轻量级像素流对齐模块 |
 
 # The Luding dataset comes from our team's earlier research.
 The dataset can be accessed at [zenodo](https://zenodo.org/records/17543956).
