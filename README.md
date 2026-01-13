@@ -13,7 +13,10 @@ our past work:
 SCDUnetPP  https://github.com/lewuu/SCDUNetPP
 the ludingdataset:[Landslide Datasets of the 2022 Luding and 2017 Jiuzhaigou Earthquakes](https://zenodo.org/records/17543956)
 
-Installation
+# Installation
+
 💾 Clone this repository to your local machine.
+
+```bash
 git clone https://github.com/lewuu/SCDUNetPP
 cd SCDUNetPP
