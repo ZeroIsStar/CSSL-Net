@@ -66,30 +66,40 @@ tensorboard --logdir=tf-logs
   <em>图1: 整体系统架构图</em>
 </div>
 
-<div style="max-width: 600px; margin: 0 auto;"> <!-- 限制总宽度并居中 -->
-  <figure style="margin: 20px 0; text-align: center;">
-    <img src="./SSCE.jpg" alt="Spectral–Spatial Context Enhancement module" style="width: 80%; border: 1px solid #ddd;" />
-    <figcaption>
-      <strong>图(a): SSCE模块</strong><br>
-      光谱-空间上下文增强模块
-    </figcaption>
-  </figure>
-
-  <figure style="margin: 20px 0; text-align: center;">
-    <img src="./FCSS.jpg" alt="Flash-aggregation Context State Space module" style="width: 80%; border: 1px solid #ddd;" />
-    <figcaption>
-      <strong>图(b): FCSS模块</strong><br>
-      闪聚上下文状态空间模块
-    </figcaption>
-  </figure>
-
-  <figure style="margin: 20px 0; text-align: center;">
-    <img src="./LPA.jpg" alt="Lightweight Pixel-flow Alignment module" style="width: 80%; border: 1px solid #ddd;" />
-    <figcaption>
-      <strong>图(c): LPA模块</strong><br>
-      轻量级像素流对齐模块
-    </figcaption>
-  </figure>
+<div style="
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    gap: 20px;
+    flex-wrap: wrap;">
+  
+  <!-- 第一列 -->
+  <div style="flex: 1; min-width: 200px;">
+    <img src="./SSCE.jpg" 
+         alt="光谱-空间上下文增强模块示意图" 
+         style="width: 100%; border: 1px solid #eee; border-radius: 8px;">
+    <p style="margin-top: 10px; font-weight: bold;">图(a): SSCE模块</p>
+    <p style="font-size: 0.9em; color: #666;">光谱-空间上下文增强模块</p>
+  </div>
+  
+  <!-- 第二列 -->
+  <div style="flex: 1; min-width: 200px;">
+    <img src="./FCSS.jpg" 
+         alt="闪聚上下文状态空间模块示意图" 
+         style="width: 100%; border: 1px solid #eee; border-radius: 8px;">
+    <p style="margin-top: 10px; font-weight: bold;">图(b): FCSS模块</p>
+    <p style="font-size: 0.9em; color: #666;">闪聚上下文状态空间模块</p>
+  </div>
+  
+  <!-- 第三列 -->
+  <div style="flex: 1; min-width: 200px;">
+    <img src="./LPA.jpg" 
+         alt="轻量级像素流对齐模块示意图" 
+         style="width: 100%; border: 1px solid #eee; border-radius: 8px;">
+    <p style="margin-top: 10px; font-weight: bold;">图(c): LPA模块</p>
+    <p style="font-size: 0.9em; color: #666;">轻量级像素流对齐模块</p>
+  </div>
 </div>
 
 # Training Process Monitoring
