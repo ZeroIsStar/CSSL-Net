@@ -17,9 +17,10 @@
 8.BFA_ResUnet paper url: https://www.mdpi.com/2072-4292/17/6/995  
 
 
-our past work:
-SCDUnetPP  https://github.com/lewuu/SCDUNetPP
-the ludingdataset:[Landslide Datasets of the 2022 Luding and 2017 Jiuzhaigou Earthquakes](https://zenodo.org/records/17543956)
+# our past work
+SCDUnetPP  https://github.com/lewuu/SCDUNetPP  
+
+The dataset can be accessed at Zenodo{url：https://zenodo.org/records/17543956}.
 
 # Installation
 
