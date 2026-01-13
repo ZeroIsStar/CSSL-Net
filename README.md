@@ -22,15 +22,15 @@
 SCDUnetPP  https://github.com/lewuu/SCDUNetPP 
 # Citation
 @article{WU2024103612,
-title = {Landslide mapping based on a hybrid CNN-transformer network and deep transfer learning using remote sensing images with topographic and spectral features},
-journal = {International Journal of Applied Earth Observation and Geoinformation},
-volume = {126},
-pages = {103612},
-year = {2024},
-issn = {1569-8432},
-doi = {https://doi.org/10.1016/j.jag.2023.103612},
-url = {https://www.sciencedirect.com/science/article/pii/S1569843223004363},
-author = {Lei Wu and Rui Liu and Nengpan Ju and Ao Zhang and Jingsong Gou and Guolei He and Yuzhu Lei}
+ title = {Landslide mapping based on a hybrid CNN-transformer network and deep transfer learning using remote sensing images with topographic and spectral features},
+ journal = {International Journal of Applied Earth Observation and Geoinformation},
+ volume = {126},
+ pages = {103612},
+ year = {2024},
+ issn = {1569-8432},
+ doi = {https://doi.org/10.1016/j.jag.2023.103612},
+ url = {https://www.sciencedirect.com/science/article/pii/S1569843223004363},
+ author = {Lei Wu and Rui Liu and Nengpan Ju and Ao Zhang and Jingsong Gou and Guolei He and Yuzhu Lei}
 }
 The dataset can be accessed at [Zenodo](https://zenodo.org/records/17543956).
 
