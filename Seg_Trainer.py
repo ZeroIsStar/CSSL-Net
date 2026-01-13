@@ -230,14 +230,7 @@ class Trainer:
             # 关闭
             writer.close()
         torch.save(best_model_weights, model_path)
-        # .....................................................region 均值方差............................................
-        M_Mean, re_mean, pr_mean, F1_mean = np.mean(self.data['miou'][-5:], axis=0), np.mean(self.data['recall'][-5:],
-                                                                                             axis=0), np.mean(
-            self.data['precision'][-10:], axis=0), np.mean(self.data['F1'][-10:], axis=0)
-        M_std, re_std, pr_std, F1_std = np.std(self.data['miou'][-10:], axis=0), np.std(self.data['recall'][-5:],
-                                                                                        axis=0), np.std(
-            self.data['precision'][-10:], axis=0), np.std(self.data['F1'][-5:], axis=0)
-        return M_Mean, re_mean, pr_mean, F1_mean, M_std, re_std, pr_std, F1_std, self.data
+        return 0
         # endregion
 
 
@@ -249,12 +242,11 @@ if __name__ == '__main__':
             Train_loader, Val_loader, _ = DataLoader(dataset_name=dataset).get_dataloader()
             trainer = Trainer(train_loader=Train_loader, val_loader=Val_loader, model_type=model, dataset_name=dataset)
             trainer.set_random_seed()
-            M_Mean, re_mean, pr_mean, F1_mean, M_std, re_std, pr_std, F1_std, data = trainer.train()
-            print(M_Mean, re_mean, pr_mean, F1_mean)
 
     # .................................region 示例代码单个模型数据集........................................................
     # Train_loader, Val_loader, _ = DataLoader(dataset_name=cfg.dataset.dataset_name).get_dataloader()
     # trainer = Trainer(train_loader=Train_loader, val_loader=Val_loader, model_type=cfg.segment_model.type, dataset_name = cfg.dset.dataset_name)
     # trainer.set_random_seed()
     # M_Mean, re_mean, pr_mean, F1_mean, M_std, re_std, pr_std, F1_std, data = trainer.train()
+
     # print(M_Mean, re_mean, pr_mean, F1_
