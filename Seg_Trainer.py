@@ -235,7 +235,7 @@ class Trainer:
 
 
 if __name__ == '__main__':
-    model_list = ['test']
+    model_list = ['']
     dataset_list = ['landslide4']
     for model in model_list:
         for dataset in dataset_list:
@@ -250,3 +250,4 @@ if __name__ == '__main__':
     # M_Mean, re_mean, pr_mean, F1_mean, M_std, re_std, pr_std, F1_std, data = trainer.train()
 
     # print(M_Mean, re_mean, pr_mean, F1_
+
