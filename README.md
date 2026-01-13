@@ -66,39 +66,18 @@ tensorboard --logdir=tf-logs
   <em>图1: 整体系统架构图</em>
 </div>
 
-<div style="
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: center;
-    gap: 20px;
-    flex-wrap: wrap;">
-  
-  <!-- 第一列 -->
-  <div style="flex: 1; min-width: 200px;">
-    <img src="./SSCE.jpg" 
-         alt="光谱-空间上下文增强模块示意图" 
-         style="width: 100%; border: 1px solid #eee; border-radius: 8px;">
-    <p style="margin-top: 10px; font-weight: bold;">图(a): SSCE模块</p>
-    <p style="font-size: 0.9em; color: #666;">光谱-空间上下文增强模块</p>
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+  <div style="text-align: center;">
+    <img src="./SSCE.jpg" alt="SSCE模块" style="width: 100%; max-width: 250px; border: 1px solid #ccc;">
+    <p><strong>图(a): SSCE模块</strong><br>光谱-空间上下文增强模块</p>
   </div>
-  
-  <!-- 第二列 -->
-  <div style="flex: 1; min-width: 200px;">
-    <img src="./FCSS.jpg" 
-         alt="闪聚上下文状态空间模块示意图" 
-         style="width: 100%; border: 1px solid #eee; border-radius: 8px;">
-    <p style="margin-top: 10px; font-weight: bold;">图(b): FCSS模块</p>
-    <p style="font-size: 0.9em; color: #666;">闪聚上下文状态空间模块</p>
+  <div style="text-align: center;">
+    <img src="./FCSS.jpg" alt="FCSS模块" style="width: 100%; max-width: 250px; border: 1px solid #ccc;">
+    <p><strong>图(b): FCSS模块</strong><br>闪聚上下文状态空间模块</p>
   </div>
-  
-  <!-- 第三列 -->
-  <div style="flex: 1; min-width: 200px;">
-    <img src="./LPA.jpg" 
-         alt="轻量级像素流对齐模块示意图" 
-         style="width: 100%; border: 1px solid #eee; border-radius: 8px;">
-    <p style="margin-top: 10px; font-weight: bold;">图(c): LPA模块</p>
-    <p style="font-size: 0.9em; color: #666;">轻量级像素流对齐模块</p>
+  <div style="text-align: center;">
+    <img src="./LPA.jpg" alt="LPA模块" style="width: 100%; max-width: 250px; border: 1px solid #ccc;">
+    <p><strong>图(c): LPA模块</strong><br>轻量级像素流对齐模块</p>
   </div>
 </div>
 
