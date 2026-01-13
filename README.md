@@ -43,3 +43,10 @@ The Luding dataset can be accessed at [Zenodo](https://zenodo.org/records/175439
 ```bash
 https://github.com/ZeroIsStar/CSSL-Net.git
 cd CSSL-Net
+
+## 📦 安装依赖
+
+安装所有必需的 Python 包：
+
+```bash
+pip install -r requirements.txt
