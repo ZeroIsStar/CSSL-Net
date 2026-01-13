@@ -59,7 +59,7 @@ einops==0.8.1
 tensorboard --logdir=tf-logs
 ```
 <div align="center">
-  <img src="docs/architecture.png" alt="系统架构" width="600">
+  <img src="model.jpg" alt="系统架构" width="600">
   <br>
   <em>图1: 整体系统架构图</em>
 </div>
