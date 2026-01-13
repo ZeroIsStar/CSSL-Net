@@ -66,7 +66,7 @@ tensorboard --logdir=tf-logs
   <em>图1: 整体系统架构图</em>
 </div>
 
-| <img src="SSCE.jpg" width="200"> | <img src="FCSS.jpg" width="200"> | <img src="LPA.jpg" width="200"> |
+| <img src="SSCE.jpg" style="width:100%; height:auto;"> | <img src="FCSS.jpg" style="width:100%; height:auto;"> | <img src="LPA.jpg" style="width:100%; height:auto;"> |
 |:---:|:---:|:---:|
 | **图(a): SSCE模块**<br>光谱-空间上下文增强模块 | **图(b): FCSS模块**<br>闪聚上下文状态空间模块 | **图(c): LPA模块**<br>轻量级像素流对齐模块 |
 
