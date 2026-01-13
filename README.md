@@ -74,6 +74,7 @@ einops==0.8.1
 ```
 # Training Process Monitoring
 ```bash
-
+tensorboard --logdir=tf-logs
+```
 
 
