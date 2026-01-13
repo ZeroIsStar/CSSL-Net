@@ -66,26 +66,30 @@ tensorboard --logdir=tf-logs
   <em>图1: 整体系统架构图</em>
 </div>
 
-<div style="display: flex; justify-content: space-around; align-items: flex-start; text-align: center; flex-wrap: wrap;">
-  
-  <figure style="flex: 1; min-width: 200px; margin: 15px;">
-    <img src="./SSCE.jpg" alt="Spectral–Spatial Context Enhancement module" style="width: 100%; border-radius: 5px;" />
-    <figcaption style="margin-top: 8px; font-weight: bold;">图(a): SSCE模块</figcaption>
-    <figcaption style="font-size: 0.9em; color: #555;">光谱-空间上下文增强模块</figcaption>
+<div style="max-width: 600px; margin: 0 auto;"> <!-- 限制总宽度并居中 -->
+  <figure style="margin: 20px 0; text-align: center;">
+    <img src="./SSCE.jpg" alt="Spectral–Spatial Context Enhancement module" style="width: 80%; border: 1px solid #ddd;" />
+    <figcaption>
+      <strong>图(a): SSCE模块</strong><br>
+      光谱-空间上下文增强模块
+    </figcaption>
   </figure>
-  
-  <figure style="flex: 1; min-width: 200px; margin: 15px;">
-    <img src="./FCSS.jpg" alt="Flash-aggregation Context State Space module" style="width: 100%; border-radius: 5px;" />
-    <figcaption style="margin-top: 8px; font-weight: bold;">图(b): FCSS模块</figcaption>
-    <figcaption style="font-size: 0.9em; color: #555;">闪聚上下文状态空间模块</figcaption>
+
+  <figure style="margin: 20px 0; text-align: center;">
+    <img src="./FCSS.jpg" alt="Flash-aggregation Context State Space module" style="width: 80%; border: 1px solid #ddd;" />
+    <figcaption>
+      <strong>图(b): FCSS模块</strong><br>
+      闪聚上下文状态空间模块
+    </figcaption>
   </figure>
-  
-  <figure style="flex: 1; min-width: 200px; margin: 15px;">
-    <img src="./LPA.jpg" alt="Lightweight Pixel-flow Alignment module" style="width: 100%; border-radius: 5px;" />
-    <figcaption style="margin-top: 8px; font-weight: bold;">图(c): LPA模块</figcaption>
-    <figcaption style="font-size: 0.9em; color: #555;">轻量级像素流对齐模块</figcaption>
+
+  <figure style="margin: 20px 0; text-align: center;">
+    <img src="./LPA.jpg" alt="Lightweight Pixel-flow Alignment module" style="width: 80%; border: 1px solid #ddd;" />
+    <figcaption>
+      <strong>图(c): LPA模块</strong><br>
+      轻量级像素流对齐模块
+    </figcaption>
   </figure>
-  
 </div>
 
 # Training Process Monitoring
