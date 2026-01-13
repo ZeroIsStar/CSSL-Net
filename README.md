@@ -34,7 +34,7 @@ SCDUnetPP  https://github.com/lewuu/SCDUNetPP
   author = {Lei Wu and Rui Liu and Nengpan Ju and Ao Zhang and Jingsong Gou and Guolei He and Yuzhu Lei}
 }
 ```
-The dataset can be accessed at [Zenodo](https://zenodo.org/records/17543956).
+The Luding dataset can be accessed at [Zenodo](https://zenodo.org/records/17543956).
 
 # Installation
 
