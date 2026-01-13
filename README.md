@@ -43,7 +43,7 @@ The Luding dataset can be accessed at [Zenodo](https://zenodo.org/records/175439
 ```bash
 https://github.com/ZeroIsStar/CSSL-Net.git
 cd CSSL-Net
-
+```
 ## 📦 环境依赖
 
 ### 核心依赖
@@ -71,6 +71,9 @@ tensorboard==2.12.0
 thop==0.1.1.post2209072238
 torchsummary==1.5.1
 einops==0.8.1
+```
+# Training Process Monitoring
+```bash
 
-## 📦 训练过程查看和损失下载
+
 
