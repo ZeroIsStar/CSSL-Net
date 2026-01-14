@@ -1,5 +1,5 @@
 # Lightweight Spectral-Spatial Landslide Identification Network for Multispectral Remote Sensing Imagery
-# related model
+# Related model
 Models and articles related to this paper—if they are helpful to your research, remember to cite their articles.  
 1.[MFFEnet](https://link.springer.com/article/10.1007/s10346-022-01847-1)
 
